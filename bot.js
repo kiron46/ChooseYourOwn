@@ -226,7 +226,7 @@ function initialize(config, story, beginningState) {
 	app.use(bodyParser.urlencoded({extended: true}));
 
 	app.get('/_ah/health', (req, res) => {
-		res.send('ok');
+		res.send('FOOO');
 	});
 
 	app.use(morgan([
