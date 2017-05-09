@@ -6,7 +6,6 @@
   "main": "index.js",
   "scripts": {
     "start": "coffee index.coffee",
-    "test": "xo",
     "fix": "xo --fix"
   },
   "author": "Jonah Sanville",
